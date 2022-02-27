@@ -15,6 +15,11 @@
 		F74F297127CC2A0B00A08BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74F296F27CC2A0B00A08BC3 /* Main.storyboard */; };
 		F74F297327CC2A0D00A08BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74F297227CC2A0D00A08BC3 /* Assets.xcassets */; };
 		F74F297627CC2A0D00A08BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74F297427CC2A0D00A08BC3 /* LaunchScreen.storyboard */; };
+		F74F297D27CC2AA200A08BC3 /* overworld.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F74F297C27CC2AA200A08BC3 /* overworld.mp3 */; };
+		F74F297F27CC2ABC00A08BC3 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = F74F297E27CC2ABC00A08BC3 /* explosion.wav */; };
+		F74F298127CC2ACD00A08BC3 /* bonus.wav in Resources */ = {isa = PBXBuildFile; fileRef = F74F298027CC2ACD00A08BC3 /* bonus.wav */; };
+		F74F298327CC32F900A08BC3 /* SpaceDust.sks in Resources */ = {isa = PBXBuildFile; fileRef = F74F298227CC32F900A08BC3 /* SpaceDust.sks */; };
+		F74F298527CC37CA00A08BC3 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = F74F298427CC37CA00A08BC3 /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		F74F297027CC2A0B00A08BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F74F297227CC2A0D00A08BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74F297527CC2A0D00A08BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F74F297C27CC2AA200A08BC3 /* overworld.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = overworld.mp3; sourceTree = "<group>"; };
+		F74F297E27CC2ABC00A08BC3 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		F74F298027CC2ACD00A08BC3 /* bonus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bonus.wav; sourceTree = "<group>"; };
+		F74F298227CC32F900A08BC3 /* SpaceDust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceDust.sks; sourceTree = "<group>"; };
+		F74F298427CC37CA00A08BC3 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +73,14 @@
 				F74F296727CC2A0B00A08BC3 /* GameScene.sks */,
 				F74F296927CC2A0B00A08BC3 /* Actions.sks */,
 				F74F296B27CC2A0B00A08BC3 /* GameScene.swift */,
+				F74F297C27CC2AA200A08BC3 /* overworld.mp3 */,
+				F74F297E27CC2ABC00A08BC3 /* explosion.wav */,
+				F74F298027CC2ACD00A08BC3 /* bonus.wav */,
 				F74F296D27CC2A0B00A08BC3 /* GameViewController.swift */,
 				F74F296F27CC2A0B00A08BC3 /* Main.storyboard */,
 				F74F297227CC2A0D00A08BC3 /* Assets.xcassets */,
+				F74F298427CC37CA00A08BC3 /* Explosion.sks */,
+				F74F298227CC32F900A08BC3 /* SpaceDust.sks */,
 				F74F297427CC2A0D00A08BC3 /* LaunchScreen.storyboard */,
 			);
 			path = Project_1_TV;
@@ -130,8 +145,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74F297127CC2A0B00A08BC3 /* Main.storyboard in Resources */,
+				F74F298327CC32F900A08BC3 /* SpaceDust.sks in Resources */,
 				F74F296827CC2A0B00A08BC3 /* GameScene.sks in Resources */,
+				F74F297F27CC2ABC00A08BC3 /* explosion.wav in Resources */,
 				F74F297327CC2A0D00A08BC3 /* Assets.xcassets in Resources */,
+				F74F298127CC2ACD00A08BC3 /* bonus.wav in Resources */,
+				F74F297D27CC2AA200A08BC3 /* overworld.mp3 in Resources */,
+				F74F298527CC37CA00A08BC3 /* Explosion.sks in Resources */,
 				F74F297627CC2A0D00A08BC3 /* LaunchScreen.storyboard in Resources */,
 				F74F296A27CC2A0B00A08BC3 /* Actions.sks in Resources */,
 			);
